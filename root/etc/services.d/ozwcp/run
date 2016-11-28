@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+cd /config/ozwcp/
+exec \
+        s6-setuidgid abc \
+		/config/ozwcp/ozwcp -p 8888

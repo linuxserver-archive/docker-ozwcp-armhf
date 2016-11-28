@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+rm -Rf /config/ozwcp
+mkdir -p /config/ozwcp
+cp -R /app/* /config/ozwcp/
+chown -R abc.abc /config/
